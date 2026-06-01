@@ -1,3 +1,21 @@
+"""
+Input:
+    Lựa chọn menu (1–7)
+    Mã sổ tiết kiệm (string)
+    Tên khách hàng (string)
+    Số tiền gửi (int)
+    Kỳ hạn gửi (int)
+    Lãi suất năm (float)
+    Số tháng thực gửi (int)
+
+Output:
+    Danh sách sổ tiết kiệm
+    Thông báo thêm, cập nhật, tất toán thành công hoặc thất bại
+    Tiền lãi dự kiến, tổng tiền nhận
+    Tiền lãi thực nhận khi rút trước hạn
+    Các thông báo lỗi khi dữ liệu không hợp l
+"""
+
 saving_accounts = [
     {
         "account_id": "STK001",
